@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/narrow_horizontal_margin"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_horizontal_margin"
+        android:layout_marginStart="@dimen/default_horizontal_margin"
+        android:layout_marginTop="@dimen/default_horizontal_margin"
+        android:textColor="@color/gray1"
+        android:textSize="@dimen/font_xsmall"
+        android:textStyle="bold"
+        tools:text="10 Abril 2017"/>
+</LinearLayout>

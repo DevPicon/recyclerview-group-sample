@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="1dp"
+             android:layout_marginEnd="@dimen/default_horizontal_margin"
+             android:layout_marginStart="@dimen/default_horizontal_margin"
+             android:layout_marginTop="1dp"
+             android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_list"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_horizontal_margin"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtStore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray1"
+                    android:textSize="@dimen/font_small"
+                    tools:text="Liverpool Santa Fe"/>
+
+                <TextView
+                    android:id="@+id/txtDes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray9"
+                    android:textSize="@dimen/font_small"
+                    tools:text="Deportes"/>
+
+                <TextView
+                    android:id="@+id/txtPlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray9"
+                    android:textSize="@dimen/font_small"
+                    tools:text="3 MESES SIN INTERESES"/>
+
+                <TextView
+                    android:id="@+id/txtMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray1"
+                    android:textSize="@dimen/font_small"
+                    tools:text="Liverpool Santa Fe"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtCargo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray1"
+                    android:textSize="@dimen/font_small"
+                    android:textStyle="bold"
+                    tools:text="$3,380.50"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>
